@@ -1,1 +1,31 @@
-/*  your css code here. If applicable */
+/* Reset some default styles for better consistency */
+body, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the main container */
+.main-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Style individual testimonials */
+.testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Style the testimonial text */
+.text {
+    font-size: 16px; /* You can adjust the font size as needed */
+}
+
+/* Style the author's name */
+.author {
+    text-align: right;
+    font-style: italic;
+}
+
